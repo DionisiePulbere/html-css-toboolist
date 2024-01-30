@@ -21,14 +21,6 @@ header{
     vertical-align: middle;
 }
 
-section{
-    background-color: white;
-    margin-top: 3px;
-    padding-left: 50px;
-    padding-top: 20px;
-}
-
-
 .logo{
     vertical-align: middle;
 }
@@ -63,9 +55,26 @@ section{
     background-color: #ffffff;
 }
 
+section{
+    background-color: white;
+    margin-top: 3px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+div .lista{
+    margin-top: 30px;
+
+}
+
 div .triangolo{
     display: inline-block;
 }
+
+div .row{
+    padding-top: 16px ;
+}
+
 .triangolo{
      width: 0;
      height: 0;
@@ -79,12 +88,25 @@ div .triangolo{
     display: inline-block;
     width: 20px;
     height: 20px;
-    border: solid 1px green;
     border-radius: 100%;
     line-height: 20px;
     text-align: center;
-    color: green;
     margin-right: 10px;
+}
+
+.circle-done{
+    border: solid 1px green;
+    color: green;
+}
+
+.circle-not-done{
+    color: red;
+    border: solid 1px red;
+
+}
+
+h2{
+    font-weight: 500;
 }
 
 h4{
@@ -97,9 +119,30 @@ h4{
     border-radius: 10px;
     font-size: 10px;
     padding: 5px 10px;
+    color: white;
 }
 
 .tag-blu{
-    color: white;
     background-color:  #46ADF1;
 }
+
+.tag-viola{
+    background-color: #9B72E5;
+}
+
+.tag-verde{
+    background-color:#64C0A9;
+}
+
+.tag-arancio{
+    background-color:#F29E36 ;
+}
+
+.tag-magenta{
+    background-color:#DC75AE ;
+}
+
+.tag-lime{
+    background-color:#B1C92B ;
+}
+
